@@ -16,10 +16,13 @@ header {
     justify-content: space-between;
     padding-top: 5px;
     padding-bottom: 10px; }
-    @media screen and (max-width: 1300px) {
+    @media screen and (min-width: 500px) {
       header > div {
-        margin-left: 95px;
-        margin-right: 95px; } }
+        padding-left: 80px; } }
+    @media screen and (max-width: 500px) {
+      header > div {
+        padding-left: 0;
+        text-align: center; } }
     header > div img {
       display: block;
       width: 160px; }
@@ -100,10 +103,13 @@ input[type='submit'] {
   margin: auto;
   padding-top: 50px;
   padding-bottom: 50px; }
-  @media screen and (max-width: 1300px) {
+  @media screen and (min-width: 500px) {
     .section-1 .main {
-      margin-left: 95px;
-      margin-right: 95px; } }
+      padding-left: 80px; } }
+  @media screen and (max-width: 500px) {
+    .section-1 .main {
+      padding-left: 0;
+      text-align: center; } }
 
 .section-1 .main > h1 {
   max-width: 650px; }
@@ -130,10 +136,13 @@ input[type='submit'] {
     width: 100%;
     max-width: 1200px;
     margin: auto; }
-    @media screen and (max-width: 1300px) {
+    @media screen and (min-width: 500px) {
       .section-2 > div {
-        margin-left: 95px;
-        margin-right: 95px; } }
+        padding-left: 80px; } }
+    @media screen and (max-width: 500px) {
+      .section-2 > div {
+        padding-left: 0;
+        text-align: center; } }
 
 .section-2 form {
   margin: 50px;
@@ -153,6 +162,3 @@ input[type='submit'] {
 
 .section-2 form label {
   display: block; }
-
-body {
-  background-color: #9eccfe; }
